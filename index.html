@@ -4,9 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .flex-container {
+             display: flex;
+             flex-direction: column;
+             align-items: center;
+        }
+
+        button {
+            width: 150px;
+             height: auto;
+             background-color: aquamarine;
+             border-radius: 3px;
+              font-size: xx-large;
+        }
+
+        button:hover {
+              cursor: pointer;
+        }
+    </style>
 </head>
 <body>
-    <script src="script.js"></script>
+    <div class="flex-container">
+        <h1>Rock Paper or Scissors</h1>
+        <button onclick="game()">Start Game</button>
+    </div>
 </body>
+<script src="script.js"></script>
 </html>
